@@ -1,0 +1,13 @@
+var temp0;
+var temp1;
+var input;
+
+// Check to see if the input is 10, i.e. ascii for enter key //
+read input;
+var input -= 10;
+while input:
+	var input += 10;
+	print input;
+	read input;
+	var input -= 10;
+end;

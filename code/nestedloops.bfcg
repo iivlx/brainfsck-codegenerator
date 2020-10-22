@@ -1,0 +1,21 @@
+var temp0;
+var temp1;
+
+var exclam = '!';
+var i;
+var j;
+var k;
+
+var i = 4;
+while i:
+	var j = 3;
+	while j:
+		var k = 2;
+		while k:
+			print exclam;
+			var k -= 1;
+		end;
+		var j -= 1;
+	end;
+	var i -= 1;
+end;

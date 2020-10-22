@@ -1,0 +1,67 @@
+var temp0;
+var temp1;
+var temp2;
+var num1;
+var num2;
+var exclam = '!';
+
+var numtemp1;
+var numtemp2;
+var numtemp3;
+var result;
+
+// print the prompt //
+print "Please enter two numbers";
+print 10;
+print '>';
+
+// read two numbers //
+read num1; print num1;
+read num2; print num2;
+
+// display the operation we want to display //
+print 10;
+print num1;
+print " * ";
+print num2;
+print " = ";
+
+// convert ascii values to int values and multiply them together //
+var num1 -= 48;
+var num2 -= 48;
+
+copy num1 numtemp1 numtemp2;
+copy numtemp2 num1;
+
+// num1 is now in num1 and numtemp1 //
+
+var num2 -= 1; // we want to subtract num2 because n*1 = n //
+while num2:
+	copy numtemp1 numtemp2 numtemp3;
+	add numtemp2 num1;
+	add numtemp3 numtemp1;
+	var num2 -= 1;
+
+end;
+
+copy num1 result num2;
+
+// display result in ascii //
+printnum result;
+
+// display result in how many !s //
+print 10;
+print "That is this many: ";
+
+while num2:
+	print exclam;
+	var num2 -= 1;
+end;
+
+
+
+
+
+
+
+

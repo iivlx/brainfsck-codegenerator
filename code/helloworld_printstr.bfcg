@@ -1,0 +1,5 @@
+var temp0;
+var temp1;
+
+print "Hello, world!";
+print 10;

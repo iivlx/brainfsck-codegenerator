@@ -1,0 +1,32 @@
+// this is required for now.... //
+var temp1;
+
+// setup //
+var upper = 'H';
+var lower = 'e';
+var space = ' ';
+
+// print Hello //
+print upper;
+print lower;
+var lower += 'l' - 'e';
+print lower;
+print lower;
+var lower += 'o' - 'l';
+print lower;
+
+// print space //
+print space;
+
+// print World! //
+var upper += 'W' - 'H';
+print upper;
+print lower;
+var lower += 'r' - 'o';
+print lower;
+var lower -= 'r' - 'l';
+print lower;
+var lower -= 'l' - 'd';
+print lower;
+var space += '!' - ' ';
+print space;

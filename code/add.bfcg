@@ -1,0 +1,29 @@
+var temp0;
+var temp1;
+var num1;
+var num2;
+
+// print the prompt //
+print "Please enter two numbers";
+print 10;
+print '>';
+
+// read two numbers //
+read num1; print num1;
+read num2; print num2;
+
+// display the operation we want to display //
+print 10;
+print num1;
+print " + ";
+print num2;
+print " = ";
+
+// convert ascii values to int values and add them together //
+var num1 -= 48;
+var num2 -= 48;
+add num1 num2;
+
+// convert back to ascii and display the result //
+var num2 += 48;
+print num2;

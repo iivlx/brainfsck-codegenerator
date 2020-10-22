@@ -1,0 +1,12 @@
+var temp0;
+var temp1;
+var t = 't';
+var f = 'f';
+
+var input = 1;
+
+if input:
+	print t;
+else
+	print f;
+endif;

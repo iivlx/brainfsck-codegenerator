@@ -1,0 +1,26 @@
+var temp0;
+var temp1;
+
+var input0;
+var input1;
+var input2;
+var input3;
+var input4;
+
+
+print "Please enter 5 characters";
+print 10;
+print '>';
+
+read input0; print input0;
+read input1; print input1;
+read input2; print input2;
+read input3; print input3;
+read input4; print input4;
+print 10;
+
+print input4;
+print input3;
+print input2;
+print input1;
+print input0;
